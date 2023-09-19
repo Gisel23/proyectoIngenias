@@ -48,6 +48,9 @@ a {
     text-align: center;
     text-decoration: none;
 }
+.fa-solid .fa-shop{
+    color:#557761
+}
 
 /*----------------------------------INDEX-----------------------------*/
 /*----IndexMain---*/
@@ -86,8 +89,6 @@ h1 {
     height: 10px;
     padding-bottom: 5px;
     align-items: center;
-   
-
 }
 
 .enlace {
@@ -103,7 +104,7 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("/public/img/concientizacion.jpg");
+    background-image: url("/img/concientizacion.jpg");
     background-size: cover;
     border-radius: 5px;
 }
@@ -114,7 +115,7 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("/public/img/recoleccionSelectiva.jpg");
+    background-image: url("/img/recoleccionSelectiva.jpg");
     background-size: cover;
     border-radius: 5px;
 }
@@ -125,7 +126,7 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("/public/img/compostaje.jpeg");
+    background-image: url("/img/compostaje.jpeg");
     background-size: cover;
     border-radius: 5px;
 }
@@ -136,7 +137,7 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("/public/img/compostaje2.jpg");
+    background-image: url("/img/compostaje2.jpg");
     background-size: cover;
     border-radius: 5px;
 }
@@ -225,10 +226,13 @@ li {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
-    align-items: stretch;
+    align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
+}
+.cuerpo-img{
+    padding: 10px;
 }
 
 /*-----------------RECOLECCION SELECTIVA --------------*/
@@ -328,6 +332,19 @@ footer {
 .menufooter3 {
     padding: 5px;
 }
+.fa-solid .fa-location-dot{
+    color: #557761
+}
+.fa-solid .fa-phone{
+    color: #557761
+}
+.fa-brands .fa-instagram .fa-facebook .fa-twitter .fa-whatsapp{
+    color: #557761;
+}
+.fa-solid .fa-credit-card .fa-paypal .fa-envelope{
+    color: #557761;
+}
+
 
 /*--------------Form register------------------*/
 
@@ -439,6 +456,24 @@ footer {
         padding: 19px;
         margin:40px;
     }
+    /*-------------Compostaje----------------*/
+    .cuerpo {
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 10%;
+    }
+    .cuerpo-img { 
+        width: 65%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+    
     /*--------------Tienda--------------------*/
     .contenedorProdutos{
         display: grid;
