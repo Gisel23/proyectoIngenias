@@ -104,8 +104,9 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("img/concientizacion.jpg");
+    background-image: url("../img/concientizacion.jpg");
     background-size: cover;
+    background-attachment: fixed;
     border-radius: 5px;
 }
 
@@ -115,8 +116,9 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("img/recoleccionSelectiva.jpg");
+    background-image: url("../img/recoleccionSelectiva.jpg");
     background-size: cover;
+    background-attachment: fixed;
     border-radius: 5px;
 }
 
@@ -126,8 +128,9 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("img/compostaje.jpeg");
+    background-image: url("../img/compostaje.jpeg");
     background-size: cover;
+    background-attachment: fixed;
     border-radius: 5px;
 }
 
@@ -137,8 +140,9 @@ h1 {
     margin: 10px;
     padding: 80px;
     text-align: center;
-    background-image: url("img/compostaje2.jpg");
+    background-image: url("../img/compostaje2.jpg");
     background-size: cover;
+    background-attachment: fixed;
     border-radius: 5px;
 }
 
